@@ -16,6 +16,7 @@
 </html>
 
 ```
++ O titulo da página é o que aparece na barra da guia.
 + No _VSCODE_ essa estrutura básica é criada através do atalho: `!`
 
 
@@ -43,3 +44,42 @@
 ```
 + Perceba que os parágrafos foram adicionados entre as tags `<body>` e que para exibir as tags foi preciso adicionar alguns símbolos.
 + `lt` significa <u>less than</u> e `gt` <u>greather than</u>.
+
+# <center>Adicionando Imagens</center>
++ Para adicionar uma imagem, siga o modelo abaixo.
+
+# Exemplo de HTML com Imagem e Link
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de HTML</title>
+</head>
+<body>
+    <!-- Imagem na mesma pasta -->
+    <h1>Imagem na mesma pasta</h1>
+    <img src="imagem.jpg" alt="Descrição da Imagem">
+
+    <!-- Imagem em página diferente -->
+    <h1>Imagem em página diferente</h1>
+    <img src="imagens/imagem.jpg" alt="Descrição da Imagem">
+
+    <!-- Link -->
+    <h1>Link para outra página</h1>
+    <a href="https://www.exemplo.com">Clique aqui para visitar o exemplo</a>
+</body>
+</html>
+
+```
+
++ Criando a tag <img>: Digite _img_ e selecione a sugestão. 
++ Para selecionar o arquivo: `ctrl + espaço`
+
+# <center>Adicionando favicons</center>
+
++ Adicione a seguinte linha ao head:
+```html
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+```
++ Geralmente usa-se o formato ícone.
