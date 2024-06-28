@@ -21,9 +21,9 @@
 
 # <center> Parágrafos </center>
 + Funções principais do parágrafo: legibilidade, semântica, formatação e estilo.
-+ Pode ser escrito qualquer coisa, basta colocar no meio do par de tags &lt;p&gt; e &lt;/p&gt;.
++ **Exemplo**: _Pode ser escrito qualquer coisa, </br>basta colocar no meio do par de tags &lt;p&gt; e &lt;/p&gt;_.
 
-### O código acima foi gerado por:
+### O código do exemplo acima foi gerado por:
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -34,11 +34,12 @@
 </head>
 <body>
     <p>
-        Pode ser escrito qualquer coisa, basta colocar no meio do par de tags &lt;p&gt; e &lt;/p&gt;
+        Pode ser escrito qualquer coisa, </br>basta colocar no meio do par de tags &lt;p&gt; e &lt;/p&gt;
     </p>
 
 
 </body>
 </html>
 ```
-+ Perceba que os parágrafos foram adicionados entre as tags `<body>` e que para
++ Perceba que os parágrafos foram adicionados entre as tags `<body>` e que para exibir as tags foi preciso adicionar alguns símbolos.
++ `lt` significa <u>less than</u> e `gt` <u>greather than</u>.
