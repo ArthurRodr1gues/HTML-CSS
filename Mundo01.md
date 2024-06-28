@@ -48,7 +48,7 @@
 # <center>Adicionando Imagens</center>
 + Para adicionar uma imagem, siga o modelo abaixo.
 
-# Exemplo de HTML com Imagem e Link
+### Exemplo de HTML com Imagem e Link
 
 ```html
 <!DOCTYPE html>
