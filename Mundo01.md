@@ -100,4 +100,4 @@
 + `<sup>`: semanticamente marca texto como sobrescrito e estéticamente aplica um texto <sup>sobrescrito</sup>.
 + `<code>`: semanticamente informa que o texto é código e estéticamente aplica uma formatação de <code>código</code>.
 + `<q>`: semanticamente indica uma citação curta e estéticamente aplica <q>aspas</q>.
-+ `<abbr>`: semanticamente indica uma abreviação e estéticamente pode exibir uma dica com o significado completo quando o cursor passa sobre a abreviação, por exemplo, <abbr title="HyperText Markup Language">HTML</abbr>.
++ `<abbr>`: semanticamente indica uma abreviação e estéticamente pode exibir uma dica com o significado completo quando o cursor passa sobre a abreviação, por exemplo, `<abbr title="HyperText Markup Language">HTML</abbr>` que deve exibir a palavra HTML e, quando o cursor for colocado em cima da palavra, exibir "_HyperText Markup Language_".
