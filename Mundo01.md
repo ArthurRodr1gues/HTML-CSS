@@ -42,6 +42,7 @@
 </body>
 </html>
 ```
++ Perceba a quebra de linha `<br>` antes de _basta_.
 + Perceba que os parágrafos foram adicionados entre as tags `<body>` e que para exibir as tags foi preciso adicionar alguns símbolos.
 + `lt` significa <u>less than</u> e `gt` <u>greather than</u>.
 
@@ -73,13 +74,30 @@
 
 ```
 
-+ Criando a tag <img>: Digite _img_ e selecione a sugestão. 
++ Criando a tag `<img>` no _VsCode_: Digite _img_ e selecione a sugestão. 
 + Para selecionar o arquivo: `ctrl + espaço`
 
-# <center>Adicionando favicons</center>
+
+# <center>Adicionando Favicons</center>
 
 + Adicione a seguinte linha ao head:
 ```html
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 ```
 + Geralmente usa-se o formato ícone.
+
+#  <center>Hierarquia de Títulos</center>
++ Vai do `<h1>` ao `<h6>`.
++ Não considere aspectos estéticos, mas funcionais.
++ Pode-se gerar textos automáticos com o uso da palavra _lorem_ no _VsCode_.
+
+
+# <center>Formatação de Textos</center>
++ `<strong>`: semanticamente informa que o texto tem alta importância e estéticamente aplica um <strong>negrito</strong>.
++ `<em>`: semanticamente informa que o texto tem ênfase e estéticamente aplica um <em>itálico</em>.
++ `<ins>`: semanticamente indica uma inserção de texto e estéticamente aplica um <ins>sublinhado</ins>.
++ `<sub>`: semanticamente marca texto como subscrito e estéticamente aplica um texto <sub>subscrito</sub>.
++ `<sup>`: semanticamente marca texto como sobrescrito e estéticamente aplica um texto <sup>sobrescrito</sup>.
++ `<code>`: semanticamente informa que o texto é código e estéticamente aplica uma formatação de <code>código</code>.
++ `<q>`: semanticamente indica uma citação curta e estéticamente aplica <q>aspas</q>.
++ `<abbr>`: semanticamente indica uma abreviação e estéticamente pode exibir uma dica com o significado completo quando o cursor passa sobre a abreviação, por exemplo, <abbr title="HyperText Markup Language">HTML</abbr>.
